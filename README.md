@@ -1,5 +1,10 @@
 # Software-Engineering
 
-In this repos all the weekly course work will be uploaded of the course Software Engineering taken in IIT Palakad. 
+Coursework and weekly assignments for the **Software Engineering** course at **IIT Palakkad**.
 
-Most of the work are ungraded. These are used for reference.
+This repository contains implementations, notes, and class diagrams from the course. Most of the work is **ungraded** and is maintained primarily for reference and learning.
+
+
+## Ungraded Assignments
+
+- [Network Manager](NetworkManager/note.md)
