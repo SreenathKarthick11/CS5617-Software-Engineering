@@ -7,4 +7,4 @@ This repository contains implementations, notes, and class diagrams from the cou
 
 ## Ungraded Assignments
 
-- [Network Manager](NetworkManager/note.md)
+- [Network Manager](Network_Manager/note.md)
