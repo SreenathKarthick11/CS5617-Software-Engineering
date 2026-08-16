@@ -57,8 +57,8 @@ classDiagram
     IFileCommunicator <|.. FileWatchService
     IFileUpdate <|.. FileUpdateHandler
 
-    FileWatchService --> IFileUpdate
-    FileWatchService --> FileSystemWatcher
+    FileWatchService --o IFileUpdate
+    FileWatchService --o FileSystemWatcher
 
     classDef interfaceStyle fill:#fff,stroke:#333,stroke-width:2px,stroke-dasharray: 5 5
 ```
