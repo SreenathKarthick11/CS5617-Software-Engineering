@@ -10,3 +10,4 @@ This repository contains implementations, notes, and class diagrams from the cou
 - [Persistent Map](Persistance_Map/note.md)
 - [Network Manager](Network_Manager/note.md)
 - [File Watcher](File_Watcher/note.md)
+- [GUI Demo](GUI_Demo/note.md)
