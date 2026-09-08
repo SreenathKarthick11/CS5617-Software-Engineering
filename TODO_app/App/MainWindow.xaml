@@ -16,7 +16,7 @@
         <StackPanel Orientation="Horizontal">
 
             <TextBox x:Name="TodoText"
-                 Width="540"
+                 Width="539"
                  Height="30"
                  Padding="5"/>
 
@@ -30,9 +30,24 @@
         </StackPanel>
 
         <ListBox x:Name="TodoList"
-             DisplayMemberPath="Text"
-             Margin="0,20,0,0"
-             Height="250"/>
+                   Margin="0,20,0,0"
+                    Height="250">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Text}"
+                           Width="650"
+                           VerticalAlignment="Center"/>
+                        <Button Content="Remove"
+                        Width="70"
+                        Background="Tomato"
+                        FontFamily="Arial Black"
+                        Click="Remove_Click"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+
+        </ListBox>
 
     </StackPanel>
 </Window>
