@@ -13,3 +13,4 @@ This repository contains implementations, notes, and class diagrams from the cou
 - [GUI Demo](GUI_Demo/note.md)
 - [Todo App](TODO_app/note.md)
 - [Threads](Threads/note.md)
+- [File Reader](File_Reader/note.md)
